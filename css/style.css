@@ -1,0 +1,273 @@
+
+body{
+    margin:0;
+    padding: 0;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight:400 ;
+}
+/* header start */
+header{
+      padding: 30px 0;
+     
+}
+.wrapper{
+    margin:0 auto;
+    width: 90%;
+    overflow:hidden ;  
+    
+}
+.logo{ 
+  
+    width:13%;
+    float: left;
+   
+}
+.logo img{
+       width: 100%;
+  
+}
+.menu{
+       width: 50%;
+       float: right;
+      
+  }
+  .menu ul{
+      margin: 0;
+        float: right;
+  }
+.menu ul li{
+            list-style: none;
+            float: left;
+    
+}
+.menu ul li a{ color: #626262;
+               display: inline-block;
+               margin:0 25px;
+               padding: 3px 3px;
+               font-size: 18px;
+               text-decoration: none;
+               text-transform: uppercase;
+               border: 1px solid transparent;
+}
+.menu ul li:last-child a{
+           margin-right:0 ;
+}
+.menu ul li a:hover{
+            border-bottom: 1px solid #626262;
+           
+}
+/* header end */
+
+/* banner start */
+
+.banner{}
+.Wrapper{}
+.bimg{}
+.bimg img{
+    width: 100%;
+}
+/* banner end */
+
+/* perfect start */
+.perfect{
+    padding: 80px 0;
+}
+.wrapper2{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+}
+.p-content{
+  
+}
+.c-light{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif; ;
+    font-size:14px ;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c-h1{
+    margin:20px 0 25px
+    font-size:30px ;
+    font-weight: 400;
+   
+}
+.c-text{ line-height: 25px;
+    margin: 0;
+}
+.mb-45{
+    margin-bottom: 45px;
+}
+
+/* perfect end */
+
+/* blog1 start */
+.blog1{
+    padding:70px 0 10px ;
+}
+.wrapper2{}
+.b-contant{}
+.b-single{
+    width: 46%;
+    float: left;
+    margin-bottom: 60px;
+    
+}
+.b-single:nth-child(even) {
+    margin-left: 8%;
+   
+}
+.blog-img{ 
+     margin-bottom: 25px;
+}
+.blog-img img{
+    width: 100%;
+}
+/* blog1 end  */
+
+/* sing up */
+.news{
+    background-color: #F0F0F0;
+   padding: 70px 0;
+}
+.singup{
+    text-align: center;
+}
+.s-h1{
+    
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s-form{
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+.s-form input{
+    font-family: 'Playfair Display', serif;
+    font-size:14px ;
+    color:#626262 ;
+    width:385px ;
+    height:45px ;
+    border: none;
+    border-bottom: 1px solid #626262;
+    background-color: transparent;
+
+}
+.s-form input:focus{
+    outline: 0;
+}
+.s-form button{
+    position: absolute;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+    padding-left: 5px;
+    padding-right:15px;
+
+}
+.s-form button:focus{
+    outline: 0;
+}
+.s-form input button img{}
+
+
+
+/* sing up end  */
+
+/* blog2 strat */
+/* blog2 end  */
+/* button start */
+.load{
+    margin: 130px 0;
+    text-align: center;
+}
+.load-btn{
+    font-family: 'Playfair Display', serif;
+    font-size:20px ;
+    font-weight: 400;
+    width: 165px;
+    height: 60px;
+    border: 1px solid #626262;
+    background-color: white;
+    color: #626262;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.load-btn:hover{
+    background-color: #626262;
+    color: white;
+}
+
+
+
+/* button end */
+/* footer start */
+footer{
+    background-color: #F0F0F0;
+}
+.Wrapper{
+    overflow: hidden;
+}
+.list{
+    width: 30%;
+    float: left;
+    margin: 20px 0;
+}
+.list ul{
+   padding-left: 0;
+
+}
+.list ul li{
+    list-style:none ;
+    float: left;
+}
+.list ul li a{
+    text-decoration: none;
+    display: inline-block;
+  margin: 0 15px;
+   color: #626262;
+   transition: .3s;
+}
+.list ul li:hover a{
+    border-bottom: 1px solid #626262;
+  }
+.icn{
+    width: 30%;
+    float: right;
+    margin: 20px 0;
+}
+
+.icn ul{
+    float: right;
+}
+.icn ul li{
+    list-style: none;
+    float: left;
+}
+.sp{
+    margin-top: 20px;
+ 
+}
+.icn ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px ;
+    color: #626262;
+    transition: .3s;
+}
+.icn ul li:hover a{
+    border-bottom: 1px solid #626262;
+  }
+
+/* footer end */
+
+
